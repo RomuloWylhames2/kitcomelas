@@ -1,0 +1,24 @@
+{
+  "name": "kitcomelas",
+  "version": "1.0.0",
+  "description": "Homepage for kitcomelas",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomuloWylhames2/kitcomelas.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Romulo Wylhames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomuloWylhames2/kitcomelas/issues"
+  },
+  "homepage": "https://github.com/RomuloWylhames2/kitcomelas#readme"
+}
