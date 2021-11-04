@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
     <title>Kit Com Elas</title>
 </head>
 <body>
-    <nav>
-        <h1>Kit Com Elas<span>instituição</span></h1>
-        <ul>
+    <nav class="navbar">
+        <h1 class="logo-comelas">Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></h1>
+        <ul class="navbar__links">
             <li><a href="#empresa">Quem somos</a></li>
             <li><a href="#noticia">Notícias</a></li>
             <li><a href="#projetos">Projetos</a></li>
@@ -22,9 +23,12 @@
     <header>
         <div id="slider">
             <div class="slide">
-                <h6><span>KIT COM ELAS</span></h6>
-                <h2><span>Você pode fazer a diferença</span> Participe de nossa campanha</h2>
-                <button>QUERO DOAR</button>
+                <img class="slide__image" src="./images/banner.jpg" alt="kit com elas Banner">
+                <div class="slide__copy">
+                    <h6><span class="copy--primary">KIT COM ELAS</span></h6>
+                    <h2><span class="copy--primary">Você pode fazer a diferença</span> Participe de nossa campanha</h2>
+                    <button class="btn btn--slide">QUERO DOAR</button>
+                </div>
             </div>
         </div>
     </header>
@@ -57,8 +61,8 @@
             <button type="submit">Enviar</button>
         </form>
         <ul>
-            <li><a href="" target="_blank">Facebook</a></li>
-            <li><a href="" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/KIT-COM-ELAS-102133291933703" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/kitcomelas/" target="_blank">Instagram</a></li>
             <li><a href="" target="_blank">Tiktok</a></li>
         </ul>
         <hr />
