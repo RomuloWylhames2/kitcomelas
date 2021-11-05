@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 
 * {
     box-sizing: border-box;
@@ -7,14 +10,27 @@
 :root {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    color: #333;
     --color-primary: #752344;
-    --color-button: #C80050;
+    --color-secundary: #C80050;
+    --color-tercceira: #F74A8F;
     --default-padding: 1rem;
 }
 
 body {
     margin: 0;
     padding-top: 7.75rem;
+}
+
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 ul {
@@ -26,16 +42,22 @@ ul {
 .navbar {
     position: fixed;
     z-index: 1;
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
     top: 0;
-    left: 0;
+    left: 0; 
+    width: 100%; 
+    background-color: var(--color-tercceira);
+    color: #e9ecef;
+}
+
+.navbar__container {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: center;
+    
     width: 100vw;
     height: 7.75rem;
     padding: 0 1rem;
-    background-color: #F74A8F;
-    color: #fff;
+    
 }
 
 .navbar__links {
@@ -50,7 +72,7 @@ ul {
 
 .navbar__links a {
     font-weight: 300;
-    color: #fff;
+    color: #e9ecef;
     text-decoration: none;
 }
 
@@ -76,8 +98,8 @@ ul {
 }
 
 #slider {
-    background-color: #F74A8F;
-    color: #fff;
+    background-color: var(--color-tercceira);
+    color: #e9ecef;
 }
 
 .slide {
@@ -133,5 +155,142 @@ ul {
 .btn:focus {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
+    color: #e9ecef;
+    box-shadow: 0 1rem 1rem #0006;
+}
+
+#noticia {
+    background-color: var(--color-secundary);
+}
+
+.noticia__container {
+    padding: 4.375rem 1rem;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375;
+    background-color: var(--color-primary);
+}
+
+.projetos__copy {
+    padding: 0 1.875rem;
+}
+
+#galeria {
+    background-color: var(--color-secundary);
+    min-height: 80vh;
+}
+
+.galeria__container h6 {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--color-tercceira);
     color: #fff;
+    padding: 0 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-comelas {
+    justify-self: start;
+    margin: 0;
+}
+
+.logo-comelas__subtitle {
+    display: block;
+}
+
+.footer__form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 12ch auto;
+    gap: 1.25rem;
+}
+
+.footer__form label {
+    font-size: .875;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer__email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    width: 100%;
+}
+
+.footer__form input {
+    background-color: var(--color-secundary);
+    border: unset;  
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer__form input::placeholder {
+    color: #000;
+}
+
+.footer__form input:focus {
+    outline: unset;
+}
+
+.footer__form button {
+    cursor: pointer;
+    border: unset;
+    height: 100%;
+    transition: 0.3s all ease;
+}
+
+.footer__form button:hover {
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.footer__social {
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+    color: #fff;
+    margin-left: 0.2rem;
+}
+
+.footer__social a .fa-instagram,
+.footer__social a:visited .fa-instagram,
+.footer__social a:active .fa-instagram {
+    color: var(--color-tercceira);
+}
+
+.footer__social a .fa-tiktok,
+.footer__social a:visited .fa-tiktok,
+.footer__social a:active .fa-tiktok {
+    color: var(--color-tercceira);
+}
+
+.footer hr {
+    border-color: #fff4;
+    margin: 0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 2.5rem 0;
 }
