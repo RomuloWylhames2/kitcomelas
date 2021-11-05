@@ -10,14 +10,16 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1 class="logo-comelas">Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></h1>
-        <ul class="navbar__links">
-            <li><a href="#empresa">Quem somos</a></li>
-            <li><a href="#noticia">Notícias</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#doações">Doações</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+        <div class="container navbar__container">
+            <h1 class="logo-comelas">Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></h1>
+            <ul class="navbar__links">
+                <li><a href="#empresa">Quem somos</a></li>
+                <li><a href="#noticia">Notícias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#doações">Doações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
@@ -35,11 +37,12 @@
 
     <main>
         <section id="noticia">
-            <h3>Em produção</h3>
+            <h3 class="container noticia__container">Aqui vão as notícias</h3>
         </section>
 
-        <section id="projetos">
-            <div>
+        <section id="projetos" class="container">
+            <h3>Aqui vão os projetos</h3>
+            <div class="projetos__copy">
                 <h6>Projetos realizados</h6>
                 <h4>Lorem ipsum, Voluptatem perspiciatis illo ratione maxime. Blanditiis hic nisi cum voluptatum laborum quasi voluptatem quibusdam.</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi repudiandae, vero corporis repellat dolor reprehenderit quam ad ipsa deserunt sunt vitae impedit qui voluptatum. Rerum quia sed ea magnam tenetur.</p>
@@ -47,24 +50,41 @@
         </section>
 
         <section id="galeria">
-            <div>
-                <h6>Galeria</h6>
+            <div class="container galeria__container">
+                <h6>Aqui vão as galerias</h6>
             </div>
         </section>
     </main>
 
-    <footer>
-        <h2>Kit Com Elas<span>instituição</span></h2>
-        <form>
-            <label>Fale com a gente</label>
-            <input type="email" placeholder="email">
-            <button type="submit">Enviar</button>
-        </form>
-        <ul>
-            <li><a href="https://www.facebook.com/KIT-COM-ELAS-102133291933703" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/kitcomelas/" target="_blank">Instagram</a></li>
-            <li><a href="" target="_blank">Tiktok</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="container footer__container">
+            <h2 class="logo-comelas">Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></h2>
+            <form class="footer__form">
+                <label for="email">receba mais informações</label>
+                <div class="footer__email">
+                    <input id="email" type="email" placeholder="email">
+                    <button type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                </div>
+            </form>
+            <ul class="footer__social">
+                <li><a href="https://www.facebook.com/KIT-COM-ELAS-102133291933703" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a></li>
+                <li><a href="https://www.instagram.com/kitcomelas/" target="_blank">
+                    <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </span>
+                </a></li>
+                <li><a href="https://www.tiktok.com/@kitcomelas?" target="_blank">
+                    <span class="fa-stack">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-tiktok fa-stack-1x"></i>
+                    </span>
+                </a></li>
+            </ul>
+        </div>
+        
         <hr />
         <p>
             <small>Kit Com Elas - Todos os direitos reservados.</small>
