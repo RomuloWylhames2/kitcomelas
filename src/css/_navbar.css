@@ -5,6 +5,16 @@
     left: 0; 
     width: 100%; 
     color: #e9ecef;
+    transition: all 0.5s;
+}
+
+.navbar.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-tercceira);
+    transition: all 0.5s;
 }
 
 .navbar__container {

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Kit Com Elas</title>
 </head>
@@ -23,13 +25,29 @@
     </nav>
 
     <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
                 <img class="slide__image" src="./images/banner.jpg" alt="kit com elas Banner">
                 <div class="slide__copy">
                     <h6><span class="copy--primary">KIT COM ELAS</span></h6>
                     <h2><span class="copy--primary">Você pode fazer a diferença</span> Participe de nossa campanha</h2>
                     <a href="./doacoes.html"><button class="btn btn--slide">QUERO DOAR</button></a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slide__image" src="./images/banner2.jpeg" alt="kit com elas Banner">
+                <div class="slide__copy">
+                    <h6><span class="copy--primary">quem somos</span></h6>
+                    <h2><span class="copy--primary">conheça nossa história</span>Clique no botão abaixo</h2>
+                    <a href="./quemsomos.html"><button class="btn btn--slide">saiba mais</button></a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slide__image" src="./images/banner3.jpeg" alt="kit com elas Banner">
+                <div class="slide__copy">
+                    <h6><span class="copy--primary">KIT COM ELAS</span></h6>
+                    <h2><span class="copy--primary">veja algumas imagens</span>#kitcomelas</h2>
+                    <a href="#galeria"><button class="btn btn--slide">saiba mais</button></a>
                 </div>
             </div>
         </div>
@@ -63,7 +81,7 @@
                 <label for="email">receba mais informações</label>
                 <div class="footer__email">
                     <input id="email" type="email" placeholder="email">
-                    <button type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
+                    <button class="footer__form-button" type="submit"><i class="fas fa-paper-plane fa-2x"></i></button>
                 </div>
             </form>
             <ul class="footer__social">
@@ -90,5 +108,11 @@
             <small>Kit Com Elas - Todos os direitos reservados.</small>
         </p>
     </footer>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
