@@ -37,8 +37,30 @@
         </div>
     </header>
 
-    <main>
-        
+    <main class="body-payment">
+        <form class="form-payment" action="action">
+            <h1 class="payment">Faça Diferença</h1>
+            <label for="name">Nome do Pagador</label><br>
+            <input class="box" type="text" name="Pname" id="Pname" placeholder="Insira o nome"><br>
+            <label for="pemail">Digite o e-mail</label><br>
+            <input class="box" type="text" name="Pemail" id="Pemail" placeholder="Enter Email"><br>
+            <label for="cnum">Número do cartão</label><br>
+            <input class="box" type="number" name="cardNumber" id="cardNumber" placeholder="1234 1234 1234 1234"><br>
+            <div class="div1">
+                <label for="cardex">Mês de validade do cartão</label><br>
+                <input class="box2" type="month" name="month" id="month" placeholder="MM"><br>
+            </div>
+            <div class="div1">
+                <label for="year">Ano de validade do cartão</label><br>
+            <input class="box2" type="year" name="yaar" id="year" placeholder="yyyy"><br>
+            </div>
+            <div class="div1">
+                <label for="CVC">CVC do cartão</label><br>
+            <input class="box2" type="CVC" name="cvc" id="cvc" placeholder="cvc"><br>
+            </div>
+            <button class="btn-payment" type="button">Pague agora</button>
+            <button class="btn-payment" type="button">fechar</button>
+        </form>
     </main>
 
     <footer class="footer">

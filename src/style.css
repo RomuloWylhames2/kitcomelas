@@ -13,6 +13,8 @@
 
 /* CSS DAS PÁGINAS */
 @import './css/_home.css';
+@import './css/_quemsomos.css';
+@import './css/_doacoes.css';
 @import './css/_contato.css';
 
 
@@ -46,4 +48,3 @@
 .galeria__container h6 {
     margin: 0;
 }
-
