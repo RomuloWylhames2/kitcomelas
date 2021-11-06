@@ -1,0 +1,8 @@
+:root {
+    color: #333;
+    --color-copy--alt: #CCC;
+    --color-primary: #752344;
+    --color-secundary: #C80050;
+    --color-tercceira: #F74A8F;
+    --default-padding: 1rem;
+}

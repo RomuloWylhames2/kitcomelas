@@ -1,0 +1,32 @@
+.btn {
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    border: .125rem solid #752344;
+    border-radius: 5rem;
+    color: var(--color-primary);
+    background: unset;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #e9ecef;
+    box-shadow: 0 1rem 1rem #0006;
+}
+
+.btn--contato {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #e9ecef;
+}
+
+.btn--contato:hover {
+    border-color: var(--color-copy--alt);
+    background-color: var(--color-tercceira);
+}

@@ -11,9 +11,12 @@
 <body>
     <nav class="navbar">
         <div class="container navbar__container">
-            <h1 class="logo-comelas">Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></h1>
+            <h1 class="logo-comelas">
+                <a href="index.html">
+                Kit Com Elas<span class="logo-comelas__subtitle">Serviço social</span></a>
+            </h1>
             <ul class="navbar__links">
-                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a class="active" href="quemsomos.html">Quem somos</a></li>
                 <li><a href="#noticia">Notícias</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="doacoes.html">Doações</a></li>
@@ -23,37 +26,19 @@
     </nav>
 
     <header>
-        <div id="slider">
-            <div class="slide">
-                <img class="slide__image" src="./images/banner.jpg" alt="kit com elas Banner">
-                <div class="slide__copy">
-                    <h6><span class="copy--primary">KIT COM ELAS</span></h6>
-                    <h2><span class="copy--primary">Você pode fazer a diferença</span> Participe de nossa campanha</h2>
-                    <a href="./doacoes.html"><button class="btn btn--slide">QUERO DOAR</button></a>
+        <div class="hero">
+            <img src="./images/quemsomos.jpg" alt="quem somos" class="hero__background" />
+            <div class="container hero__container">
+                <div class="hero__copy">
+                    <h2>.somos</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate odio magni deleniti veritatis magnam consequuntur, praesentium odit voluptas, corrupti aspernatur laborum eos corporis nemo, est iure. Quibusdam, ab aut.</p>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="noticia">
-            <h3 class="container noticia__container">Aqui vão as notícias</h3>
-        </section>
-
-        <section id="projetos" class="container">
-            <h3>Aqui vão os projetos</h3>
-            <div class="projetos__copy">
-                <h6>Projetos realizados</h6>
-                <h4>Lorem ipsum, Voluptatem perspiciatis illo ratione maxime. Blanditiis hic nisi cum voluptatum laborum quasi voluptatem quibusdam.</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi repudiandae, vero corporis repellat dolor reprehenderit quam ad ipsa deserunt sunt vitae impedit qui voluptatum. Rerum quia sed ea magnam tenetur.</p>
-            </div>
-        </section>
-
-        <section id="galeria">
-            <div class="container galeria__container">
-                <h6>Aqui vão as galerias</h6>
-            </div>
-        </section>
+        
     </main>
 
     <footer class="footer">

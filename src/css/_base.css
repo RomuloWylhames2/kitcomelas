@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo-comelas {
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 1ch;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.logo-comelas__subtitle {
+    font-size: .875rem;
+    font-weight: 300;
+}
+
+.logo-comelas a {
+    text-decoration: none;
+    color: #fff;
+}
