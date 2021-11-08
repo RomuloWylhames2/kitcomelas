@@ -39,12 +39,3 @@
 .projetos__copy {
     padding: 0 1.875rem;
 }
-
-#galeria {
-    background-color: var(--color-secundary);
-    min-height: 80vh;
-}
-
-.galeria__container h6 {
-    margin: 0;
-}

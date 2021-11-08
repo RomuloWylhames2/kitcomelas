@@ -47,7 +47,7 @@
                 <div class="slide__copy">
                     <h6><span class="copy--primary">KIT COM ELAS</span></h6>
                     <h2><span class="copy--primary">veja algumas imagens</span>#kitcomelas</h2>
-                    <a href="#galeria"><button class="btn btn--slide">saiba mais</button></a>
+                    <a href="#galerya"><button class="btn btn--slide">saiba mais</button></a>
                 </div>
             </div>
         </div>
@@ -67,9 +67,32 @@
             </div>
         </section>
 
-        <section id="galeria">
-            <div class="container galeria__container">
-                <h6>Aqui vão as galerias</h6>
+        <!-- ///////// -->
+        
+        <div class="galeria-modal" onclick="fecharGaleria()">
+            <span>X</span>
+            <img src="" alt="" />
+        </div>
+        <section id="galerya">
+            <div class="galeria">
+                <div class="single-galeria w-2 h-2">
+                    <img src="./images/galery1.jpeg" alt="" onclick="abrirGaleria('./images/galery1.jpeg')">
+                </div>
+                <div class="single-galeria w-2">
+                    <img src="./images/galery2.jpeg" alt="" onclick="abrirGaleria('./images/galery2.jpeg')">
+                </div>
+                <div class="single-galeria">
+                    <img src="./images/galery3.jpeg" alt="" onclick="abrirGaleria('./images/galery3.jpeg')">
+                </div>
+                <div class="single-galeria h-2">
+                    <img src="./images/galery4.jpeg" alt="" onclick="abrirGaleria('./images/galery4.jpeg')">
+                </div>
+                <div class="single-galeria">
+                    <img src="./images/galery5.jpeg" alt="" onclick="abrirGaleria('./images/galery5.jpeg')">
+                </div>
+                <div class="single-galeria w-2">
+                    <img src="./images/galery6.jpeg" alt="" onclick="abrirGaleria('./images/galery6.jpeg')">
+                </div>
             </div>
         </section>
     </main>
