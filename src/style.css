@@ -16,26 +16,3 @@
 @import './css/_quemsomos.css';
 @import './css/_doacoes.css';
 @import './css/_contato.css';
-
-
-
-#noticia {
-    background-color: var(--color-secundary);
-}
-
-.noticia__container {
-    padding: 4.375rem 1rem;
-}
-
-#projetos {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 3.125rem;
-    align-items: center;
-    padding: 4.375;
-    background-color: var(--color-primary);
-}
-
-.projetos__copy {
-    padding: 0 1.875rem;
-}
