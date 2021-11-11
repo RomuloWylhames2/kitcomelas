@@ -37,6 +37,28 @@ $(document).ready(() => {
           message => alert(message)
         );
     });
+
+    // SCROLL
+    const scrollAnima = document.querySelector('[naimacao="scroll"]');
+    
+    const metadeWindow = window.innerHeight * 4.0;
+
+    function animarScroll() {
+        const topoItem = scrollAnima.getBoundingClientRect().top;
+
+        const intemVisivel = topoItem - metadeWindow < 0;
+
+        if(intemVisivel) {
+            scrollAnima.classList.add('show-button');
+        } else {
+            scrollAnima.classList.remove('show-button');
+        };
+
+        // console.log(topoItem)
+    };
+
+    window.addEventListener('scroll', animarScroll);
+
   });
 
 

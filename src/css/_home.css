@@ -283,6 +283,10 @@ div.galeria div.single-galeria img:hover {
     transition: 0.5s;
 }
 
+.noticia-col img {
+    max-width: 100%;
+}
+
 .noticia-col h3 {
     text-align: center;
     font-weight: 600;
