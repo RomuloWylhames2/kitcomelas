@@ -18,6 +18,14 @@
     padding: 7rem 1.875rem;
 }
 
+@media screen and (max-width: 764px) {
+    .hero__copy {
+        width: 100vw;
+        padding: 2rem 1.875rem;
+    }
+}
+
+
 .hero__copy h2 {
     margin: 0;
     margin-bottom: 3rem;
@@ -25,6 +33,13 @@
     line-height: 7.5rem;
     letter-spacing: -.3125rem;
     color: var(--color-secundary);
+}
+
+@media screen and (max-width: 764px) {
+    .hero__copy h2 {
+        font-size: 5rem;
+        
+    }
 }
 
 .hero__copy p {
