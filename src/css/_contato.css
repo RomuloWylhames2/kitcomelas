@@ -1,85 +1,112 @@
 .contato {
-    display: grid;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 3.125rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .contato {
     grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+  }
 }
 
 .contato h3 {
-    margin: 0;
-    margin-bottom: 1.875rem;
-    font-size: 1.5625rem;
+  margin: 0;
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
 }
 
 .contato__info h3:nth-of-type(2) {
-    margin-top: 3.75rem;
+  margin-top: 3.75rem;
 }
 
 .contato__info,
 .contato__form {
-   padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .contato__info i {
-    font-size: 1.5rem;
-    color: var(--color-secundary);
+  font-size: 1.5rem;
+  color: var(--color-secundary);
 }
 
 .contato__info span {
-    display: grid;
-    grid-template-columns: 1.5rem auto;
-    gap: .625rem;
-    align-items: center;
-    font-family: "Roboto";
-    font-weight: 700;
-    line-height: 1.6875rem;
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  gap: 0.625rem;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.6875rem;
 }
 
 .contato__info__container,
 .contato__form__container {
-    width: 540px;
+  width: 540px;
 }
 
 .contato__info__container {
-    float: right;
-    padding-right: 7.125rem;
+  float: right;
+  padding-right: 7.125rem;
+}
+
+@media (max-width: 700px) {
+  .contato__info__container {
+    font-size: 0.8rem;
+    letter-spacing: 0.175rem;
+    line-height: 1.3375;
+    max-width: 43ch;
+    text-transform: uppercase;
+    margin: 0;
+  }
 }
 
 .contato__form__container {
-    padding-left: 7.125rem;
+  padding-left: 7.125rem;
+}
+
+@media (max-width: 700px) {
+    .contato__form__container {
+        padding-left: 1rem;
+        max-width: 35ch;
+    }
 }
 
 .contato__form {
-    background-color: var(--color-secundary);
-    color: #fff;
+  background-color: var(--color-secundary);
+  color: #fff;
 }
 
 .contato__form label,
 .contato__form input {
-    display: block;
+  display: block;
 }
 
 .contato__form label {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .contato__form input {
-    width: 100%;
-    margin-bottom: 1.875rem;
-    padding: 0.5rem 0;
-    background: unset;
-    border: unset;
-    border-bottom: 0.06rem solid #fff;
-    font-size: 1.5rem;
+  width: 100%;
+  margin-bottom: 1.875rem;
+  padding: 0.5rem 0;
+  background: unset;
+  border: unset;
+  border-bottom: 0.06rem solid #fff;
+  font-size: 1.5rem;
 }
 
 .contato__form input:focus {
-    outline: unset;
+  outline: unset;
 }
 
 .contato__form button {
-    float: right;
+  float: right;
 }
 
 .maps,
 .maps iframe {
-    height: 36.5rem;
+  height: 36.5rem;
 }
