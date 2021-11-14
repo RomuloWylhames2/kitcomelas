@@ -2,7 +2,7 @@
 
 Você pode conferir o projeto em: <a href="#" target="_blank">Kit com elas</a>
 
-### Para a elaboração do projeto, utilizei:
+## Para a elaboração do projeto, utilizei:
 <table>
   <tr>
     <td>HTML</td>

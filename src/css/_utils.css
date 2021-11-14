@@ -1,3 +1,7 @@
 .copy--primary {
     color: var(--color-primary);
 }
+
+.copy--primary2 {
+    color: var(--color-primary2);
+}
